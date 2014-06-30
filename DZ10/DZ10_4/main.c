@@ -8,6 +8,9 @@ int main()
     scanf("%d", &a);
     printf("Give me a second number\n");
     scanf("%d", &b);
+    while(b !=0)
+    printf("Give me a second number\n");
+    scanf("%d", &b);
     printf("%d + %d = %d\n", a,b,a+b);
     printf("%d - %d = %d\n", a,b,a-b);
     printf("%d * %d = %d\n", a,b,a*b);
